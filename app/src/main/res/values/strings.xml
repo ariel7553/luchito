@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ariel Chimbolema</string>
+    <string name="Numero_1">Ingrese el numero 1</string>
+    <string name="Numero_2">Ingrese el numero 2</string>
+    <string name="Resultado">Resultado</string>
+    <string name="Resultado_Final"></string>
+</resources>

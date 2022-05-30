@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Numero_1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Numero_2"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClicRestar"
+        android:text="Restar" />
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:onClick="onClicSumar"
+        android:text="Sumar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textViewResultadoScroll"
+                android:layout_width="match_parent"
+                android:layout_height="429dp"
+                android:gravity="right"
+                android:textSize="27sp" />
+
+            <Button
+                android:id="@+id/buttonSalir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#3F51B5"
+                android:onClick="Finalizar"
+                android:text="Salir" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
